@@ -1,0 +1,27 @@
+# Environments
+venv/
+env/
+.env
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store
+
+# Node / JS
+node_modules/
+dist/
+build/
+
+# Large Datasets & Logs generated during training
+data/raw/
+data/processed/
+logs/
+
+# IMPORTANT: Keep our trained PyTorch weights!
+!models/best_model.pth
