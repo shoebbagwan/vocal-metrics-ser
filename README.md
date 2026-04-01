@@ -60,7 +60,7 @@ curl -X POST "http://localhost:8000/predict" \
   -H "Content-Type: multipart/form-data" \
   -F "file=@audio_clip.wav"
 ```
-**JSON Response Response:**
+**JSON Response:**
 ```json
 {
   "predicted_emotion": "Angry",
